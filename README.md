@@ -1,14 +1,16 @@
 # hochdamit
+Little file upload/download page to share your downloads
 
-
-### todo
+### Todo
  - Write Tests
  - Clean Code
 
 ### Install
- - Download Repository
+ - Download repository
  - npm install
+ - Edit sourcecode, if you want ;) 
  - node app.js
+ - localhost:3000
 
 ## Inspired by:
   - https://coligo.io/building-ajax-file-uploader-with-node/
