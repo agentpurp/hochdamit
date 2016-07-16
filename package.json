@@ -1,0 +1,18 @@
+{
+  "name": "hochdamit",
+  "version": "0.0.1",
+  "description": "Simple Upload Tool ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "lokijs": "^1.4.1",
+    "node-uuid": "^1.4.7",
+    "swig": "^1.4.2"
+  }
+}

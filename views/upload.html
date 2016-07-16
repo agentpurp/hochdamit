@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>hochdamit - File Upload</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <i class="fa fa-cloud-upload fa-5x" aria-hidden="true"></i>
+            <h2>hochdamit - File Uploader</h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                style="width:0%">
+
+              </div>
+            </div>
+            <button class="btn btn-lg upload-btn" type="button">Upload File</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dwContainer" class="dis-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <i class="fa fa-cloud-download fa-5x" aria-hidden="true"></i>
+              <h2>Download Link</h2>
+              <div id="dwlink"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <input id="upload-input" type="file" name="uploads"></br>
+
+  <footer class="footer">
+
+    <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> and NodeJs, ExpressJs, Formidable, LockiJs and Swig</p>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="javascripts/upload.js"></script>
+</body>
+
+</html>

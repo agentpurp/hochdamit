@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>hochdamit - File Download</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <i class="fa fa-file fa-5x" aria-hidden="true"></i>
+            <h4>{{fileName}}</h4>
+            <a href="{{filePath}}" class="btn btn-success"><i class="fa fa-cloud-download fa-2x" aria-hidden="true"></i><br />Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <input id="upload-input" type="file" name="uploads[]" multiple="multiple"></br>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
